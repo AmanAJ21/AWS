@@ -1,0 +1,22 @@
+# Core dependencies
+streamlit>=1.28.0
+boto3>=1.28.0
+botocore>=1.31.0
+
+# File monitoring
+watchdog>=3.0.0
+
+# Utilities (these are usually included with Python 3.8+)
+# pathlib is built-in since Python 3.4
+# hashlib is built-in
+python-dateutil>=2.8.2
+
+# Optional: For enhanced functionality
+requests>=2.31.0
+pytz>=2023.3
+
+# AWS SDK dependencies (usually installed with boto3)
+# urllib3>=1.26.16
+# six>=1.16.0
+# jmespath>=1.0.1
+# s3transfer>=0.6.0
